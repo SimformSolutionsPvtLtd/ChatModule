@@ -1,0 +1,21 @@
+//
+//  ChatModule.pch
+//  ChatModule
+//
+//  Created by Ajay Ghodadra on 21/08/15.
+//  Copyright (c) 2015 Ajay Ghodadra. All rights reserved.
+//
+
+#ifndef ChatModule_ChatModule_pch
+#define ChatModule_ChatModule_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#import "AppDelegate.h"
+#import "Database.h"
+
+#define appDelegate ((AppDelegate *)[[UIApplication sharedApplication]delegate])
+
+#endif
